@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/droug86/fullstack/api/auth"
-	"github.com/droug86/fullstack/responses"
+	"github.com/droug86/fullstack/api/responses"
 )
 
 func SetMiddlewareJSON(next http.HandlerFunc) http.HandlerFunc {

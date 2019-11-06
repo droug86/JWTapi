@@ -7,6 +7,7 @@ import (
 
 	"github.com/droug86/fullstack/api/controllers"
 	"github.com/droug86/fullstack/api/seed"
+
 	"github.com/joho/godotenv"
 )
 
@@ -26,6 +27,6 @@ func Run() {
 
 	seed.Load(server.DB)
 
-	server.Run(":" + os.Getenv("HOST_PORT"))
+	server.Run(":8080")
 
 }

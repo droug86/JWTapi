@@ -9,9 +9,10 @@ import (
 	"strconv"
 
 	"github.com/droug86/fullstack/api/auth"
+	"github.com/droug86/fullstack/api/models"
+	"github.com/droug86/fullstack/api/responses"
 	"github.com/droug86/fullstack/api/utils/formaterror"
-	"github.com/droug86/fullstack/models"
-	"github.com/droug86/fullstack/responses"
+
 	"github.com/gorilla/mux"
 )
 
