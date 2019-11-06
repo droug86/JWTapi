@@ -26,6 +26,6 @@ func Run() {
 
 	seed.Load(server.DB)
 
-	server.Run(":8082")
+	server.Run(":" + os.Getenv("HOST_PORT"))
 
 }
