@@ -3,6 +3,9 @@ package middlewares
 import (
 	"errors"
 	"net/http"
+
+	"github.com/droug86/fullstack/api/auth"
+	"github.com/droug86/fullstack/responses"
 )
 
 func SetMiddlewareJSON(next http.HandlerFunc) http.HandlerFunc {
