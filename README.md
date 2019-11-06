@@ -1,18 +1,7 @@
 # fullstack
 
-## build database
+## build server
 
 ```bash
 docker-compose up -d
 ```
-
-## Launch server 
-
-> conf in .env
-
-```bash
-
-go run main.go
-
-```
-
