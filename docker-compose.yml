@@ -7,13 +7,13 @@ services:
       - 8080:8080 
     restart: on-failure
     volumes:
-      - api:/usr/src/app/
+      - jwtapi:/usr/src/app/
     depends_on:
-      - db_postgres      
+      - database   
     networks:
-      - jwtapi
+      - jwtapi_net
 
-  db_postgres:
+  database:
     image: postgres:latest
     container_name: JWTapi_db
     environment:
@@ -24,14 +24,14 @@ services:
     ports:
       - '5432:5432'
     volumes:
-      - database_postgres:/var/lib/postgresql/data
+      - jwtapi_db:/var/lib/postgresql/data
     networks:
-      - jwtapi
+      - jwtapi_net
 
 volumes:
-  api:
-  database_postgres:                  
+  jwtapi:
+  jwtapi_db:                  
 
 networks:
-  jwtapi:
+  jwtapi_net:
     driver: bridge

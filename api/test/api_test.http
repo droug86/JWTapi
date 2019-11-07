@@ -2,7 +2,7 @@
 @port = 8080
 @host = {{hostname}}:{{port}}
 @contentType = application/json
-@key = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjE1NzMwNjg1NDUsInVzZXJfaWQiOjF9.k7PB10t-W6Bd0RVxZGwovNZ5SCQLSsjqubMdJwYfi4c
+@key = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjE1NzMxMjQ5NjAsInVzZXJfaWQiOjF9.jxEudpHxKfgOkU2EIuLxr4EBommz5XMGaHt5s_axdLQ
 ### Get all posts 
 GET  {{host}}/posts HTTP/1.1
 
