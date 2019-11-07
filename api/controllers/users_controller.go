@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/droug86/fullstack/api/auth"
-	"github.com/droug86/fullstack/api/models"
-	"github.com/droug86/fullstack/api/responses"
-	"github.com/droug86/fullstack/api/utils/formaterror"
+	"github.com/droug86/JWTapi/api/auth"
+	"github.com/droug86/JWTapi/api/models"
+	"github.com/droug86/JWTapi/api/responses"
+	"github.com/droug86/JWTapi/api/utils/formaterror"
 	"github.com/gorilla/mux"
 )
 

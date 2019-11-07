@@ -3,7 +3,7 @@ package seed
 import (
 	"log"
 
-	"github.com/droug86/fullstack/api/models"
+	"github.com/droug86/JWTapi/api/models"
 	"github.com/jinzhu/gorm"
 )
 

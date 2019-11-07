@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/droug86/fullstack/api/controllers"
-	"github.com/droug86/fullstack/api/seed"
+	"github.com/droug86/JWTapi/api/controllers"
+	"github.com/droug86/JWTapi/api/seed"
 
 	"github.com/joho/godotenv"
 )

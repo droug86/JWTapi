@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/droug86/fullstack/api/models"
+	"github.com/droug86/JWTapi/api/models"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
 

@@ -1,4 +1,4 @@
-module github.com/droug86/fullstack
+module github.com/droug86/JWTapi
 
 go 1.13
 
